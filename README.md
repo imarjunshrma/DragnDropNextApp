@@ -1,34 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+<p align="center">
+  <a aria-label="Vercel logo" href="https://youtube.com/@uniquecoder">
+    <img src="https://yt3.ggpht.com/EsPzNAPrBedX7bKzDrK-CCBWq7D75U-PCoiET7DGjXa_h9bcTo3GP7QykKDv0-br3crI9Am2=s176-c-k-c0x00ffffff-no-rj-mo">
+  </a>
+</p>
 
 ## Getting Started
 
-First, run the development server:
+Visit <a aria-label="next.js learn" href="https://nextjs.org/learn">https://nextjs.org/learn</a> to get started with Next.js.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Documentation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [https://nextjs.org/docs](https://nextjs.org/docs) to view the full documentation.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Who is using Next.js?
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Next.js is used by the world's leading companies. Check out the [Next.js Showcase](https://nextjs.org/showcase) to learn more.
 
-## Learn More
+## Community
 
-To learn more about Next.js, take a look at the following resources:
+The Next.js community can be found on [GitHub Discussions](https://github.com/vercel/next.js/discussions), where you can ask questions, voice ideas, and share your projects.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To chat with other community members you can join the [Next.js Discord](https://nextjs.org/discord).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Our [Code of Conduct](https://github.com/vercel/next.js/blob/canary/CODE_OF_CONDUCT.md) applies to all Next.js community channels.
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Please see our [contributing.md](/contributing.md).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Good First Issues
+
+We have a list of [good first issues](https://github.com/vercel/next.js/labels/good%20first%20issue) that contain bugs that have a relatively limited scope. This is a great place to get started, gain experience, and get familiar with our contribution process.
+
+## Authors
+
+- Tim Neutkens ([@timneutkens](https://twitter.com/timneutkens))
+- Naoyuki Kanezawa ([@nkzawa](https://twitter.com/nkzawa))
+- Guillermo Rauch ([@rauchg](https://twitter.com/rauchg))
+- Arunoda Susiripala ([@arunoda](https://twitter.com/arunoda))
+- Tony Kovanen ([@tonykovanen](https://twitter.com/tonykovanen))
+- Dan Zajdband ([@impronunciable](https://twitter.com/impronunciable))
+
+## Security
+
+If you believe you have found a security vulnerability in Next.js, we encourage you to responsibly disclose this and not open a public issue. We will investigate all legitimate reports. Email `security@vercel.com` to disclose any security vulnerabilities.
+
+https://vercel.com/security
