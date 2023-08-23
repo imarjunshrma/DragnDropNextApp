@@ -4,9 +4,6 @@
     <img src="https://yt3.ggpht.com/EsPzNAPrBedX7bKzDrK-CCBWq7D75U-PCoiET7DGjXa_h9bcTo3GP7QykKDv0-br3crI9Am2=s176-c-k-c0x00ffffff-no-rj-mo">
   </a>
 </p>
-<p align="center">
-  <iframe src="https://dragn-drop-next-app.vercel.app/" frameborder="0" style="width: 100%; height: 500px;"></iframe>
-</p>
 
 # NextDnD: Modern Drag and Drop App
 
