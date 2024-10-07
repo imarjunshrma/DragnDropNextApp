@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# React Drag-and-Drop Columns and Items Project
 
-## Getting Started
+This project implements a drag-and-drop interface using React and `react-beautiful-dnd` where users can move items between columns and reorder the columns themselves.
 
-First, run the development server:
+## Features
+
+- **Drag and Drop Items**: Users can drag and drop items within a column or move them to other columns.
+- **Reorder Columns**: Users can reorder columns by dragging and dropping them.
+- **Empty Columns Handling**: Columns without items are also droppable, ensuring a smooth user experience.
+
+## Prerequisites
+
+Before setting up the project, make sure you have the following installed on your local machine:
+
+- **Node.js**: Download and install Node.js from [nodejs.org](https://nodejs.org).
+- **npm**: Node Package Manager is installed automatically with Node.js.
+
+## Installation
+
+1. **Clone the Repository**
+
+   Clone the project to your local machine using the following command:
+
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   ```
+
+2. **Navigate to the Project Directory**
+
+   ```bash
+   cd your-repo-name
+   ```
+
+3. **Install Dependencies**
+
+   Install all the required dependencies for the project:
+
+   ```bash
+   npm install
+   ```
+
+## Configuration
+
+To ensure that the drag-and-drop functionality works correctly, **React's strict mode must be disabled**. You can disable it by modifying the `next.config.js` file in your Next.js project.
+
+1. Open the `next.config.js` file.
+2. Add the following configuration:
+
+   ```javascript
+   const nextConfig = {
+     reactStrictMode: false,
+   };
+
+   module.exports = nextConfig;
+   ```
+
+**Important**: The project will only function correctly if `reactStrictMode` is set to `false`. React's strict mode is known to cause issues with the drag-and-drop functionality by performing double rendering of components in development mode, which interferes with the way state updates work in `react-beautiful-dnd`.
+
+## Usage
+
+Once you have installed the dependencies and disabled strict mode, you can start the project locally with:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open [http://localhost:3000](http://localhost:3000) in your browser to view the drag-and-drop application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## How It Works
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- The app allows users to drag items between columns and reorder both items and columns.
+- The components are rendered dynamically based on the structure of the data.
+- **`onDragEnd`**: This function handles both column reordering and item movement within or between columns. The data structure is updated when a drag-and-drop action is completed.
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+- **`components/`**: Contains the reusable UI components for the app.
+- **`utils/`**: Includes utility functions (if any).
+- **`pages/`**: Main app entry point.
+- **`next.config.js`**: Next.js configuration file where strict mode is disabled.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
