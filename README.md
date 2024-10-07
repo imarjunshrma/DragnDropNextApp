@@ -2,7 +2,7 @@
 
 This project implements a drag-and-drop interface using React and `react-beautiful-dnd` where users can move items between columns and reorder the columns themselves.
 
-<img src="/image-1.png" alt="Description of image" />
+<img src="https://dragn-drop-next-app.vercel.app/image-1.png" alt="Description of image" />
 
 ## Features
 
