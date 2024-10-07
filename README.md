@@ -1,39 +1,36 @@
-
-<p align="center">
-  <a aria-label="Vercel logo" href="https://youtube.com/@uniquecoder">
-    <img src="https://yt3.ggpht.com/EsPzNAPrBedX7bKzDrK-CCBWq7D75U-PCoiET7DGjXa_h9bcTo3GP7QykKDv0-br3crI9Am2=s176-c-k-c0x00ffffff-no-rj-mo">
-  </a>
-</p>
-
-# NextDnD: Modern Drag and Drop App
-
-NextDnD is a sleek and intuitive web application built using the latest version of Next.js (v13.4). This app showcases the power of drag-and-drop interactions, employing the popular React Beautiful DND library. With TypeScript for enhanced type safety and Tailwind CSS for effortless styling, NextDnD offers a contemporary and user-friendly experience.
-
-## Features
-
-- **Smooth Drag-and-Drop**: Utilizing React Beautiful DND, enjoy seamless drag-and-drop functionality for various elements.
-- **TypeScript**: Benefit from enhanced code quality and reliability through TypeScript's strong typing.
-- **Responsive Styling**: Tailwind CSS ensures responsive and visually appealing designs across devices.
-- **Easy to Use**: Intuitive interface makes NextDnD accessible to users of all levels.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
-2. Navigate to the project directory: `cd your-repo`
-3. Install dependencies: `npm install`
-4. Run the development server: `npm run dev`
-5. Access the app in your browser at `http://localhost:3000`
+First, run the development server:
 
-## Contributing
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-Contributions are welcome! If you find any issues or have suggestions, feel free to open an issue or submit a pull request.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## License
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
----
+## Learn More
 
-Enjoy the modern drag-and-drop experience with NextDnD!
+To learn more about Next.js, take a look at the following resources:
 
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
