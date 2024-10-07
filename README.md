@@ -2,6 +2,8 @@
 
 This project implements a drag-and-drop interface using React and `react-beautiful-dnd` where users can move items between columns and reorder the columns themselves.
 
+<img src="/image-1.png" alt="Description of image" />
+
 ## Features
 
 - **Drag and Drop Items**: Users can drag and drop items within a column or move them to other columns.
@@ -22,7 +24,7 @@ Before setting up the project, make sure you have the following installed on you
    Clone the project to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/imarjunshrma/DragnDropNextApp.git
    ```
 
 2. **Navigate to the Project Directory**
